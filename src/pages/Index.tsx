@@ -42,9 +42,11 @@ const Index = () => {
                 <Icon name="Play" className="mr-2" size={24} />
                 Смотреть видео
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2">
-                <Icon name="MessageCircle" className="mr-2" size={24} />
-                Связаться
+              <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2" asChild>
+                <a href="tel:+79012812183">
+                  <Icon name="Phone" className="mr-2" size={24} />
+                  Связаться
+                </a>
               </Button>
             </div>
           </div>
